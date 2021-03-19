@@ -1,0 +1,34 @@
+{
+    "name": "beta/bx.service.gen",
+    "type": "bitrix-module",
+    "description": "Mock server by openapi spec over bx.router",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Nesterov",
+            "email": "alex19pov31@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "beta/bx.router": "dev-master",
+        "beta/bx.jwt": "dev-master",
+        "beta/bx.model": "dev-master",
+        "symfony/yaml": "^4.4",
+        "fakerphp/faker": "^1.13"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@cvs.beta.agency:nesterov/bx.router.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@cvs.beta.agency:nesterov/bx.jwt.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@cvs.beta.agency:nesterov/bx.model.git"
+        }
+    ]
+}
