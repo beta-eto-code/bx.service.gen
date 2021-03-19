@@ -50,11 +50,11 @@ $app->run();
     * x-faker-source - подгружает значение по указаному ключу из строки/тела запроса или из аргументов REST метода в текущее поле
 * boolean
     * x-faker-source - подгружает значение по указаному ключу из строки/тела запроса или из аргументов REST метода в текущее поле
-* date - дата в формате ISO 8601, доступны дополнительные настройки:
+* date - дата в формате Y-d-m, доступны дополнительные настройки:
     * x-faker-offset - начальное значение, например: -30 years (https://github.com/fzaninotto/Faker#fakerproviderdatetime)
     * x-faker-limit - предельное значение, например: now (https://github.com/fzaninotto/Faker#fakerproviderdatetime)
     * x-faker-source - подгружает значение по указаному ключу из строки/тела запроса или из аргументов REST метода в текущее поле
-* date-time дата в формате Y-d-m, доступны дополнительные настройки:
+* date-time дата в формате ISO 8601, доступны дополнительные настройки:
     * x-faker-offset - начальное значение, например: -30 years (https://github.com/fzaninotto/Faker#fakerproviderdatetime)
     * x-faker-limit - предельное значение, например: now (https://github.com/fzaninotto/Faker#fakerproviderdatetime)
     * x-faker-source - подгружает значение по указаному ключу из строки/тела запроса или из аргументов REST метода в текущее поле
