@@ -20,15 +20,19 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@cvs.beta.agency:nesterov/bx.router.git"
+            "url": "git@github.com:beta-eto-code/bx.router.git"
         },
         {
             "type": "vcs",
-            "url": "git@cvs.beta.agency:nesterov/bx.jwt.git"
+            "url": "git@github.com:beta-eto-code/bx.jwt.git"
         },
         {
             "type": "vcs",
-            "url": "git@cvs.beta.agency:nesterov/bx.model.git"
+            "url": "git@github.com:beta-eto-code/bitrix-psr7.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:beta-eto-code/bitrix-psr17.git"
         }
     ]
 }

@@ -4,15 +4,97 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "791fa2b767eaa31d33e4189828bffd53",
+    "content-hash": "ed7bb32c7f6595afa19aa76d2e74a3ff",
     "packages": [
+        {
+            "name": "beta/bitrix-psr17",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beta-eto-code/bitrix-psr17.git",
+                "reference": "a274228c67fb1a15c6cc8f9e9c4a595ffe9513f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beta-eto-code/bitrix-psr17/zipball/a274228c67fb1a15c6cc8f9e9c4a595ffe9513f6",
+                "reference": "a274228c67fb1a15c6cc8f9e9c4a595ffe9513f6",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/psr7": "^1.8",
+                "psr/http-factory": "^1.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BitrixPSR17\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "PSR-17 implementation for Bitrix",
+            "support": {
+                "source": "https://github.com/beta-eto-code/bitrix-psr17/tree/0.1.0",
+                "issues": "https://github.com/beta-eto-code/bitrix-psr17/issues"
+            },
+            "time": "2021-04-18T16:46:12+00:00"
+        },
+        {
+            "name": "beta/bitrix-psr7",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beta-eto-code/bitrix-psr7.git",
+                "reference": "76ea3a9612df343662a1dae6d2437ab5499937fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beta-eto-code/bitrix-psr7/zipball/76ea3a9612df343662a1dae6d2437ab5499937fc",
+                "reference": "76ea3a9612df343662a1dae6d2437ab5499937fc",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/psr7": "^1.8",
+                "php": ">=7.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BitrixPSR7\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Nesterov",
+                    "email": "alex19pov31@gmail.com"
+                }
+            ],
+            "description": "PSR-7 adapter for Bitrix",
+            "support": {
+                "source": "https://github.com/beta-eto-code/bitrix-psr7/tree/0.1.1",
+                "issues": "https://github.com/beta-eto-code/bitrix-psr7/issues"
+            },
+            "time": "2021-05-04T09:52:38+00:00"
+        },
         {
             "name": "beta/bx.jwt",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@cvs.beta.agency:nesterov/bx.jwt.git",
-                "reference": "31afd20e72c240dae3cfa122b2cd6ca114f7fb71"
+                "url": "https://github.com/beta-eto-code/bx.jwt.git",
+                "reference": "be66e6609d84296c26fc544733b5f82fda5ae9a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beta-eto-code/bx.jwt/zipball/be66e6609d84296c26fc544733b5f82fda5ae9a8",
+                "reference": "be66e6609d84296c26fc544733b5f82fda5ae9a8",
+                "shasum": ""
             },
             "require": {
                 "beta/bx.model": "dev-master"
@@ -29,18 +111,29 @@
                 }
             ],
             "description": "JWT tokens for Bitrix app",
-            "time": "2021-02-24T07:47:53+00:00"
+            "support": {
+                "source": "https://github.com/beta-eto-code/bx.jwt/tree/0.1.0",
+                "issues": "https://github.com/beta-eto-code/bx.jwt/issues"
+            },
+            "time": "2021-04-03T12:33:31+00:00"
         },
         {
             "name": "beta/bx.model",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@cvs.beta.agency:nesterov/bx.model.git",
-                "reference": "ea857543c48965bf03be0c3abb6cb78c481dbbf9"
+                "url": "https://github.com/beta-eto-code/bx.model.git",
+                "reference": "ad814c2738ebb0a853fdf3145043fe1761ef8c88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beta-eto-code/bx.model/zipball/ad814c2738ebb0a853fdf3145043fe1761ef8c88",
+                "reference": "ad814c2738ebb0a853fdf3145043fe1761ef8c88",
+                "shasum": ""
             },
             "default-branch": true,
             "type": "bitrix-module",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -50,18 +143,32 @@
                     "email": "alex19pov31@gmail.com"
                 }
             ],
-            "time": "2021-03-12T09:23:12+00:00"
+            "support": {
+                "issues": "https://github.com/beta-eto-code/bx.model/issues",
+                "source": "https://github.com/beta-eto-code/bx.model/tree/master"
+            },
+            "time": "2021-05-18T08:41:24+00:00"
         },
         {
             "name": "beta/bx.router",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@cvs.beta.agency:nesterov/bx.router.git",
-                "reference": "6ea13c9de7e0d03c98816a518a4c695975a95418"
+                "url": "https://github.com/beta-eto-code/bx.router.git",
+                "reference": "10f98e1d72e30fb2876c7887e35ff74dc5e8d44b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beta-eto-code/bx.router/zipball/10f98e1d72e30fb2876c7887e35ff74dc5e8d44b",
+                "reference": "10f98e1d72e30fb2876c7887e35ff74dc5e8d44b",
+                "shasum": ""
             },
             "require": {
+                "beta/bitrix-psr17": "dev-master",
+                "beta/bitrix-psr7": "dev-master",
                 "beta/bx.jwt": "dev-master",
+                "ext-json": "*",
+                "php": ">=7.2",
                 "psr/http-factory": "^1.0",
                 "psr/http-message": "^1.0",
                 "psr/http-server-handler": "^1.0",
@@ -79,24 +186,30 @@
                 }
             ],
             "description": "Routing for Bitrix app",
-            "time": "2021-02-24T07:48:24+00:00"
+            "support": {
+                "source": "https://github.com/beta-eto-code/bx.router/tree/0.1.5",
+                "issues": "https://github.com/beta-eto-code/bx.router/issues"
+            },
+            "time": "2021-05-18T09:31:50+00:00"
         },
         {
             "name": "fakerphp/faker",
-            "version": "v1.13.0",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FakerPHP/Faker.git",
-                "reference": "ab3f5364d01f2c2c16113442fb987d26e4004913"
+                "reference": "048548601222b86745a48a546871b5f4ac0bc081"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/ab3f5364d01f2c2c16113442fb987d26e4004913",
-                "reference": "ab3f5364d01f2c2c16113442fb987d26e4004913",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/048548601222b86745a48a546871b5f4ac0bc081",
+                "reference": "048548601222b86745a48a546871b5f4ac0bc081",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^7.1 || ^8.0",
+                "psr/container": "^1.0",
+                "symfony/deprecation-contracts": "^2.2"
             },
             "conflict": {
                 "fzaninotto/faker": "*"
@@ -104,9 +217,21 @@
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.4.1",
                 "ext-intl": "*",
-                "phpunit/phpunit": "^7.5.20 || ^8.5.8 || ^9.4.2"
+                "symfony/phpunit-bridge": "^4.4 || ^5.2"
             },
+            "suggest": {
+                "ext-curl": "Required by Faker\\Provider\\Image to download images.",
+                "ext-dom": "Required by Faker\\Provider\\HtmlLorem for generating random HTML.",
+                "ext-iconv": "Required by Faker\\Provider\\ru_RU\\Text::realText() for generating real Russian text.",
+                "ext-mbstring": "Required for multibyte Unicode string functionality."
+            },
+            "default-branch": true,
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "v1.15-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Faker\\": "src/Faker/"
@@ -129,9 +254,132 @@
             ],
             "support": {
                 "issues": "https://github.com/FakerPHP/Faker/issues",
-                "source": "https://github.com/FakerPHP/Faker/tree/v1.13.0"
+                "source": "https://github.com/FakerPHP/Faker/tree/main"
             },
-            "time": "2020-12-18T16:50:48+00:00"
+            "time": "2021-05-04T15:35:32+00:00"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "dc960a912984efb74d0a90222870c72c87f10c91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/dc960a912984efb74d0a90222870c72c87f10c91",
+                "reference": "dc960a912984efb74d0a90222870c72c87f10c91",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0",
+                "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "ext-zlib": "*",
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.10"
+            },
+            "suggest": {
+                "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "psr-7",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "support": {
+                "issues": "https://github.com/guzzle/psr7/issues",
+                "source": "https://github.com/guzzle/psr7/tree/1.x"
+            },
+            "time": "2021-04-26T09:17:50+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/1.1.x"
+            },
+            "time": "2021-03-05T17:36:06+00:00"
         },
         {
             "name": "psr/http-factory",
@@ -359,17 +607,129 @@
             "time": "2020-09-17T16:41:19+00:00"
         },
         {
+            "name": "ralouphie/getallheaders",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ralouphie/getallheaders.git",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5 || ^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/getallheaders.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralph Khattar",
+                    "email": "ralph.khattar@gmail.com"
+                }
+            ],
+            "description": "A polyfill for getallheaders.",
+            "support": {
+                "issues": "https://github.com/ralouphie/getallheaders/issues",
+                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
+            },
+            "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "symfony/deprecation-contracts",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/deprecation-contracts.git",
+                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5f38c8804a9e97d23e0c8d63341088cd8a22d627",
+                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "2.4-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A generic function and convention to trigger deprecation notices",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-03-23T23:28:01+00:00"
+        },
+        {
             "name": "symfony/polyfill-ctype",
             "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "c6c942b1ac76c82448322025e084cadc56048b4e"
+                "reference": "46cd95797e9df938fdd2b03693b5fca5e64b01ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/c6c942b1ac76c82448322025e084cadc56048b4e",
-                "reference": "c6c942b1ac76c82448322025e084cadc56048b4e",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/46cd95797e9df938fdd2b03693b5fca5e64b01ce",
+                "reference": "46cd95797e9df938fdd2b03693b5fca5e64b01ce",
                 "shasum": ""
             },
             "require": {
@@ -382,7 +742,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.22-dev"
+                    "dev-main": "1.23-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -420,7 +780,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.22.1"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/main"
             },
             "funding": [
                 {
@@ -436,7 +796,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-07T16:49:33+00:00"
+            "time": "2021-02-19T12:13:01+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -444,12 +804,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "3871c720871029f008928244e56cf43497da7e9d"
+                "reference": "8b6d1b97521e2f125039b3fcb4747584c6dfa0ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/3871c720871029f008928244e56cf43497da7e9d",
-                "reference": "3871c720871029f008928244e56cf43497da7e9d",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/8b6d1b97521e2f125039b3fcb4747584c6dfa0ef",
+                "reference": "8b6d1b97521e2f125039b3fcb4747584c6dfa0ef",
                 "shasum": ""
             },
             "require": {
@@ -507,7 +867,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-05T17:58:50+00:00"
+            "time": "2021-05-16T09:52:47+00:00"
         }
     ],
     "packages-dev": [],
