@@ -9,11 +9,10 @@
             "email": "alex19pov31@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "beta/bx.router": "dev-master",
-        "beta/bx.jwt": "dev-master",
-        "beta/bx.model": "dev-master",
+        "beta/bx.router": "^1.0",
+        "beta/bx.jwt": "^1.0",
+        "beta/bx.model": "^1.0",
         "symfony/yaml": "^4.4",
         "fakerphp/faker": "^1.13"
     },
@@ -21,18 +20,6 @@
         {
             "type": "vcs",
             "url": "git@github.com:beta-eto-code/bx.router.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:beta-eto-code/bx.jwt.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:beta-eto-code/bitrix-psr7.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:beta-eto-code/bitrix-psr17.git"
         }
     ]
 }
